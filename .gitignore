@@ -1,8 +1,34 @@
+ HEAD
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+ 5c90214ccbbab2c3b58fda16e97fea1c957bfdce
 node_modules
 dist
 dist-ssr
 *.local
+ HEAD
 *.log
 .vscode/
 .idea/
 .DS_Store
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+ 5c90214ccbbab2c3b58fda16e97fea1c957bfdce
