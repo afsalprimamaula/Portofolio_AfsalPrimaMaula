@@ -1,6 +1,10 @@
-// Tambahkan 'id' ke dalam parameter agar section bisa di-scroll
-const Section = ({ children, className, id }) => (
-  <section id={id} className={`min-h-screen flex flex-col justify-center px-8 md:px-24 ${className}`}>
-    {children}
-  </section>
-);
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx' // Baris ini yang akan memanggil file App.jsx Anda
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)

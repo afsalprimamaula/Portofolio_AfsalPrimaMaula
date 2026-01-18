@@ -2,8 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
 
-const Section = ({ children, className }) => (
-  <section className={`min-h-screen flex flex-col justify-center px-8 md:px-24 ${className}`}>
+// Pastikan properti 'id' ditambahkan di sini
+const Section = ({ children, className, id }) => (
+  <section id={id} className={`min-h-screen flex flex-col justify-center px-8 md:px-24 ${className}`}>
     {children}
   </section>
 );
