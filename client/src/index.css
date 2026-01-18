@@ -1,6 +1,20 @@
 @import "tailwindcss";
 
 @theme {
-  --color-dark: #0a0a0a;
-  --color-gold: #d4af37;
+  /* Warna Utama */
+  --color-cream: #F9F7F2;
+  --color-cream-dark: #F2EFE9;
+  
+  /* Warna Penyeimbang (Mahal & Tegas) */
+  --color-espresso: #1C1917; /* Cokelat sangat tua, hampir hitam */
+  --color-stone-gold: #A8A29E; /* Abu-abu hangat untuk border */
+  
+  /* Warna Aksen */
+  --color-gold-leaf: #D4AF37;
+  --color-bronze: #A68A56;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F9F7F2;
 }
